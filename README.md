@@ -26,9 +26,9 @@ A native GUI for **yt-dlp** — download videos, audio, and playlists from YouTu
 ### Required
 
 | Dependency | Install command |
-|---|---|
-| **yt-dlp** | `sudo pacman -S yt-dlp` (Arch) / `winget install yt-dlp` (Windows) / `brew install yt-dlp` (macOS) / [GitHub releases](https://github.com/yt-dlp/yt-dlp/releases) |
-| **ffmpeg** | `sudo pacman -S ffmpeg` / `winget install ffmpeg` / `brew install ffmpeg` |
+|---|---|---|
+| **yt-dlp** | `sudo pacman -S yt-dlp` (Arch) / `winget install yt-dlp.yt-dlp` (Windows — includes ffmpeg) / `brew install yt-dlp` (macOS) / [GitHub releases](https://github.com/yt-dlp/yt-dlp/releases) |
+| **ffmpeg** | included with `yt-dlp.yt-dlp` on Windows / `sudo pacman -S ffmpeg` (Arch) / `brew install ffmpeg` (macOS) |
 
 ffmpeg is needed for audio extraction, thumbnail embedding, and subtitle muxing. Without it, downloads are limited to video-only formats.
 
